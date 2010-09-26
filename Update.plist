@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Updates</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.InScopeApps.imageviewplus</string>
+			<key>Developer Identifier</key>
+			<string>T3DCX7XWL8</string>
+			<key>CFBundleVersion</key>
+			<string>0.2</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1</string>
+			<key>URL</key>
+			<string>http://github.com/downloads/InScopeApps/ImageViewPlus/ImageViewPlus.0.2.safariextz</string>
+		</dict>
+	</array>
+</dict>
+</plist>

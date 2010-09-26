@@ -11,7 +11,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.1</string>
+	<string>0.2</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>Chrome</key>
@@ -26,10 +26,10 @@
 		</array>
 		<key>Whitelist</key>
 		<array>
-			<string>*://*/*.png</string>
-			<string>*://*/*.jpg</string>
-			<string>*://*/*.jpeg</string>
-			<string>*://*/*.gif</string>
+			<string>http://*/**.png</string>
+			<string>http://*/**.jpg</string>
+			<string>http://*/**.jpeg</string>
+			<string>http://*/**.gif</string>
 		</array>
 	</dict>
 	<key>Description</key>
@@ -40,8 +40,6 @@
 	<dict>
 		<key>Website Access</key>
 		<dict>
-			<key>Include Secure Pages</key>
-			<true/>
 			<key>Level</key>
 			<string>All</string>
 		</dict>
