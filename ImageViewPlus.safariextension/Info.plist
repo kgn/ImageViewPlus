@@ -19,7 +19,12 @@
 	<key>Content</key>
 	<dict>
 		<key>Scripts</key>
-		<dict/>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>Inject.js</string>
+			</array>
+		</dict>
 		<key>Stylesheets</key>
 		<array>
 			<string>Style.css</string>
@@ -33,7 +38,7 @@
 		</array>
 	</dict>
 	<key>Description</key>
-	<string>Improves Safari&apos;s default image viewing page.</string>
+	<string>Improves Safari's default image viewing page.</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>

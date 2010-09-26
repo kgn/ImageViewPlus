@@ -1,15 +1,23 @@
+/*
+The css is defined like this so the image view page doesn't
+flash as the default before the injection script is done.
+*/
+
 html > body:only-child{
 	background-color: gray;
+	width: 100%; 
+	height: 100%;
+	display: table;
 }
 
-html > body:only-child > img:only-child{
-	display: block;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	margin:auto;
-	-webkit-box-shadow: black 0 0 10px;
+html > body:only-child > p{
+	display: table-cell; 
+	vertical-align: middle;
+}
+
+html > body:only-child img{
+	display: block; 
+	margin: 0 auto;
 	background-color: white;
+	-webkit-box-shadow: black 0 0 10px;
 }
