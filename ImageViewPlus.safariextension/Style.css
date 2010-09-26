@@ -1,8 +1,15 @@
-body{
+html > body:nth-child(1){
 	background-color: gray;
 }
 
-img{
+html > body:nth-child(1) > img:nth-child(1){
 	display: block;
-	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin:auto;
+	-webkit-box-shadow: black 0 0 10px;
+	background-color: white;
 }
