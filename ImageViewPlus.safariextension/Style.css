@@ -1,8 +1,8 @@
-html > body:nth-child(1){
+html > body:only-child{
 	background-color: gray;
 }
 
-html > body:nth-child(1) > img:nth-child(1){
+html > body:only-child > img:only-child{
 	display: block;
 	position: absolute;
 	top: 0;
