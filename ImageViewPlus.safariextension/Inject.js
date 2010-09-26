@@ -1,10 +1,10 @@
 var html = document.getElementsByTagName('html')[0];
-if(html.childNodes.length == 1 && html.childNodes[0].nodeName == 'BODY'){
-    var body = html.childNodes[0];
-    if(body.childNodes.length == 1 && body.childNodes[0].nodeName == 'IMG'){
-        var img = body.childNodes[0];
+if(html.childNodes.length == 1 && html.firstChild.nodeName == 'BODY'){
+    var body = html.firstChild;
+    if(body.childNodes.length == 1 && body.firstChild.nodeName == 'IMG'){
+        var img = body.firstChild;
         var p = document.createElement('p');
         p.appendChild(img);
-        body.appendChild(p);
-    }
+        body.appendChild(p);  
+    } 
 }

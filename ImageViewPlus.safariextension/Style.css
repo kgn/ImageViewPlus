@@ -3,21 +3,24 @@ The css is defined like this so the image view page doesn't
 flash as the default before the injection script is done.
 */
 
-html > body:only-child{
-	background-color: gray;
+html > body:only-child, .ImageViewPlus-body{
 	width: 100%; 
 	height: 100%;
 	display: table;
+	background-color: #565656;
 }
 
-html > body:only-child > p{
+body:only-child > p, .ImageViewPlus-p{
 	display: table-cell; 
 	vertical-align: middle;
 }
 
-html > body:only-child img{
+html > body:only-child img, .ImageViewPlus-img{
 	display: block; 
 	margin: 0 auto;
 	background-color: white;
+	/*TODO: figure out why this isn't working*/
+	background-image: url(CheckerBoard.png);
 	-webkit-box-shadow: black 0 0 10px;
+	//border-radius: 5px;
 }
