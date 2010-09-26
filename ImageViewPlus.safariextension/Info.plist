@@ -33,7 +33,7 @@
 		</array>
 	</dict>
 	<key>Description</key>
-	<string>Adds formatting to the image view page.</string>
+	<string>Improves Safari&apos;s default image viewing page.</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
