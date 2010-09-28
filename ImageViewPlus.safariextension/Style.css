@@ -8,6 +8,9 @@ html > body:only-child, .ImageViewPlus-body{
 	height: 100%;
 	display: table;
 	background-color: #565656;
+	/*we need to do this so the background image works later*/
+	background-image: url(CheckerBoard.png);
+	background-image: none;
 }
 
 body:only-child > p, .ImageViewPlus-p{
@@ -28,7 +31,6 @@ html > body:only-child img.ImageViewPlus-Display, .ImageViewPlus-img.ImageViewPl
 }
 
 html > body:only-child img.ImageViewPlus-Treatment, .ImageViewPlus-img.ImageViewPlus-Treatment{
-	/*TODO: figure out why this isn't working*/
 	background-image: url(CheckerBoard.png);
 	-webkit-box-shadow: black 0 0 10px;
 	border-radius: 5px;
