@@ -31,6 +31,7 @@ html > body:only-child img.ImageViewPlus-Display, .ImageViewPlus-img.ImageViewPl
 }
 
 html > body:only-child img.ImageViewPlus-Treatment, .ImageViewPlus-img.ImageViewPlus-Treatment{
+	background-color: #797979;
 	background-image: url(CheckerBoard.png);
 	-webkit-box-shadow: black 0 0 10px;
 	border-radius: 5px;
