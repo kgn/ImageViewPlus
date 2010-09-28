@@ -5,6 +5,11 @@ if(html.childNodes.length == 1 && html.firstChild.nodeName == 'BODY'){
         var img = body.firstChild;
         var p = document.createElement('p');
         p.appendChild(img);
-        body.appendChild(p);  
+        body.appendChild(p);
+        
+        var imgClass = 'ImageViewPlus-Display';
+        //TODO: add setting for this
+        imgClass += ' ImageViewPlus-Treatment';
+        img.className = imgClass;
     } 
 }
