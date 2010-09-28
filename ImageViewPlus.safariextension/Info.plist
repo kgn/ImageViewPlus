@@ -29,17 +29,6 @@
 		<array>
 			<string>Style.css</string>
 		</array>
-		<key>Whitelist</key>
-		<array>
-			<string>http://*/**.png</string>
-			<string>https://*/**.png</string>
-			<string>http://*/**.jpg</string>
-			<string>https://*/**.jpg</string>
-			<string>http://*/**.jpeg</string>
-			<string>https://*/**.jpeg</string>
-			<string>http://*/**.gif</string>
-			<string>https://*/**.gif</string>
-		</array>
 	</dict>
 	<key>Description</key>
 	<string>Improves Safari's image viewing page.</string>
