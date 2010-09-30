@@ -43,9 +43,5 @@ html > body:only-child img:only-child.ImageViewPlus-Treatment,
 .ImageViewPlus-img.ImageViewPlus-Treatment{
 	background-color: white;
 	background-image: url(CheckerBoard.png);
-	-webkit-box-shadow: black 0 0 15px, 
-		/*use inset 3 times to add a 1 px inner stroke 
-		so black images look good over the white background*/
-		black 0 0 1px inset, black 0 0 1px inset, black 0 0 1px inset;
-	border-radius: 5px;
+	-webkit-box-shadow: black 0 1px 5px;
 }
