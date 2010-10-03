@@ -27,13 +27,6 @@ body:only-child > img:only-child,
 .ImageViewPlus-img{
 	display: block; 
 	margin: 0 auto;
-	/*TODO: figure out why the image doesn't fade in*/
-	opacity: 0;
-	-webkit-transition: opacity 0.25s ease-in-out;
-}
-
-.ImageViewPlus-img.ImageViewPlus-Display{
-    opacity: 1;
 }
 
 .ImageViewPlus-img.ImageViewPlus-Treatment{
