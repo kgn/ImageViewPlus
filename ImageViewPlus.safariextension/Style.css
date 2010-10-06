@@ -11,11 +11,6 @@ flash as the default before the injection script is done.
 	/*we need to do this so the background image works later*/
 	background-image: url(CheckerBoard.png);
 	background-image: none;
-	background-image:-webkit-gradient(
-		linear, 0% 100%, 0% 0%, 
-		from(rgb(120, 120, 120)), 
-		to(rgb(50, 50, 50))
-	);
 }
 
 .ImageViewPlus-p{
