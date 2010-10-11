@@ -1,4 +1,4 @@
-![Icon 64](http://github.com/InScopeApps/ImageViewPlus/raw/master/ImageViewPlus.safariextension/Icon-64.png)
+![Icon 100](http://github.com/InScopeApps/ImageViewPlus/raw/master/Icon-100.png)
 
 ImageViewPlus is a Safari Extension that improves Safari's image viewing page.
 
